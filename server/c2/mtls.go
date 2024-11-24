@@ -216,6 +216,7 @@ func getServerTLSConfig(host string) *tls.Config {
 	}
 
 	// Generate random TLS settings to randomize JARM
+	// Author: B0lg0r0v
 	maxVer := uint16(tls.VersionTLS13)
 	minVer := uint16(tls.VersionTLS12)
 	n, _ := rand.Int(rand.Reader, big.NewInt(2))
