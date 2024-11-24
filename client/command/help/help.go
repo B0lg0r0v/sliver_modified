@@ -102,7 +102,7 @@ func printHelp(con *console.SliverConsoleClient) {
 	}
 
 	con.Println()
-	con.Printf("For even more information, please see our wiki: https://github.com/B0lg0r0v/sliver_modified/wiki\n")
+	con.Printf("For even more information, please see our wiki: https://github.com/BishopFox/sliver/wiki\n")
 	con.Println()
 }
 

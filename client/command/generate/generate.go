@@ -70,7 +70,7 @@ const (
 )
 
 const (
-	crossCompilerInfoURL = "https://github.com/B0lg0r0v/sliver_modified/wiki/Cross-Compiling-Implants"
+	crossCompilerInfoURL = "https://github.com/BishopFox/sliver/wiki/Cross-Compiling-Implants"
 )
 
 var (

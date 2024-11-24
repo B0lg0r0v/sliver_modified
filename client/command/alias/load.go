@@ -160,7 +160,7 @@ func LoadAlias(manifestPath string, con *console.SliverConsoleClient) (*AliasMan
 	helpMsg := fmt.Sprintf("[%s] %s", aliasManifest.Name, aliasManifest.Help)
 	longHelpMsg := help.FormatHelpTmpl(aliasManifest.LongHelp)
 	longHelpMsg += "\n\n⚠️  If you're having issues passing arguments to the alias please read:\n"
-	longHelpMsg += "https://github.com/B0lg0r0v/sliver_modified/wiki/Aliases-&-Extensions#aliases-command-parsing"
+	longHelpMsg += "https://github.com/BishopFox/sliver/wiki/Aliases-&-Extensions#aliases-command-parsing"
 	addAliasCmd := &grumble.Command{
 		Name:     aliasManifest.CommandName,
 		Help:     helpMsg,

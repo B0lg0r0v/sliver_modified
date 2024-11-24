@@ -51,7 +51,7 @@ RUN go install google.golang.org/protobuf/cmd/protoc-gen-go@${PROTOC_GEN_GO_VER}
     && go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@${GRPC_GO}
 
 # Go assets
-WORKDIR /go/src/github.com/bishopfox/sliver
+WORKDIR /go/src/github.com/B0lg0r0v/sliver_modified
 ADD . /go/src/github.com/B0lg0r0v/sliver_modified/
 RUN make clean-all
 RUN make \

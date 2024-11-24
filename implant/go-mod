@@ -1,4 +1,4 @@
-module github.com/bishopfox/sliver
+module github.com/B0lg0r0v/sliver_modified
 
 go 1.18
 

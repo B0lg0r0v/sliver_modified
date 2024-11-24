@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sliver.sh/"
 
 github:
-  latest_url: https://github.com/B0lg0r0v/sliver_modified/releases/latest
+  latest_url: https://github.com/BishopFox/sliver/releases/latest
   repository_url: https://github.com/BishopFox/sliver
 
 # Build settings

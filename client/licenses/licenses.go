@@ -454,6 +454,6 @@ var All = fmt.Sprintf(`
 %s
 
 And thanks to all our contributors!
-https://github.com/B0lg0r0v/sliver_modified/graphs/contributors
+https://github.com/BishopFox/sliver/graphs/contributors
 
 `, Sliver, Libraries)
